@@ -53,21 +53,15 @@ body {
 	padding: 2em;
 	line-height: 1.5em;
 	font-size: 12pt;
-
-	display: flex;
-	align-items: center;
- 	justify-content: center;
- 	flex-direction: column;
 }
 
 p {
-	padding: 7px 0px;
 }
 
 h1 {
 	font-weight: bold;
 	font-size: 25pt;
-	padding: 0px 0px 5px 0px;
+	padding: 1em 0px 1em 0px;
 }
 
 h2 {
@@ -78,6 +72,13 @@ h2 {
 
 a {
 	color:  black;
+}
+
+.all {
+	display: flex;
+	align-items: center;
+ 	justify-content: center;
+ 	flex-direction: column;
 }
 
 .content {
