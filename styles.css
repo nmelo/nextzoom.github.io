@@ -1,0 +1,33 @@
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: #D8D8D8;
+}
+
+.content {
+	margin: 2em;
+}
+
+.hor_shots {
+	display: flex;
+	flex-direction: row;
+}
+
+.vert_shots {
+	display: flex;
+	flex-direction: row;
+}
+
+.shot {
+	margin-top: 1em;
+	margin-right: 1em;
+	width: 20%;
+}
+.vshot {
+	margin-top: 1em;
+	width: 60%;
+}
+
+.footer {
+	margin: 1em 0 0 0;
+}
